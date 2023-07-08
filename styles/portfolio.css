@@ -26,7 +26,7 @@ body {
     color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 18px 35px;
 
 }
 
@@ -72,16 +72,41 @@ nav a {
 .header {
 
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
-
 .bannar {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-    /* align-items: center; */
+    justify-content: space-between;
 }
 
 .bannar .profile-picture {
     width: 400px;
 
+}
+
+.bannar-start {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.bannar-titel {
+    color: #181818;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bannar-content {
+
+    width: 585px;
+}
+
+.bannar-aritcal {
+    margin-bottom: 50px;
 }
